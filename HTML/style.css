@@ -1,0 +1,295 @@
+body {
+    background-image: url("photo-1506318137071-a8e063b4bec0.jpeg");
+    background-size:contain;
+    /* Que cubra toda la pantalla */
+    background-position: center;
+    background-repeat: repeat;
+}
+
+
+
+table {
+    background-color: #efefefef;
+    color: black;
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+    background-color: #252440;
+    border-radius: 5px;
+    color: #efefefef;
+    position: relative;
+    z-index: 1;
+}
+
+.list {
+    text-align: left;
+    cursor: pointer;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #252440;
+    color: #efefefef;
+    border-collapse: collapse;
+    border: solid black 2px;
+    position: relative;
+    z-index: 1;
+}
+
+td {
+    
+    color: #efefefef;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    border: solid black 2px;
+    background-color: #252440;
+    width: 50%;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+.razon {
+    
+    color: #efefefef;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid black 2px;
+    background-color: #252440;
+    width: 50%;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.estrella-contenedor {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    transform: rotate(45deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella {
+    height: 2.5px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 2s ease-in-out infinite,
+               falling 2s ease-in-out infinite;
+}
+
+.estrella-contenedor-1 {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: rotate(45deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-1 {
+    height: 2px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 888px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 3s ease-in-out infinite,
+               falling 3s ease-in-out infinite;
+}
+
+.estrella-contenedor-2 {
+    position: absolute;
+    left: 12%;
+    top: 95%;
+    transform: rotate(60deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-2 {
+    height: 1px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 1.5s ease-in-out infinite,
+               falling 1.5s ease-in-out infinite;
+}
+
+.estrella-contenedor-3 {
+    position: absolute;
+    left: 70%;
+    top: 300%;
+    transform: rotate(70deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-3 {
+    height: 2px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 1.75s ease-in-out infinite,
+               falling 1.75s ease-in-out infinite;
+}
+
+.estrella-contenedor-4 {
+    position: absolute;
+    left: 14%;
+    top: 200%;
+    transform: rotate(65deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-4 {
+    height: 2px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 1.5s ease-in-out infinite,
+               falling 1.5s ease-in-out infinite;
+}
+
+.estrella-contenedor-5 {
+    position: absolute;
+    left: 0%;
+    top: 375%;
+    transform: rotate(60deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-5 {
+    height: 2px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 1.2s ease-in-out infinite,
+               falling 1.2s ease-in-out infinite;
+}
+
+.estrella-contenedor-6 {
+    position: absolute;
+    left: 90%;
+    top: 450%;
+    transform: rotate(125deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-6 {
+    height: 2px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 1.15s ease-in-out infinite,
+               falling 1.15s ease-in-out infinite;
+}
+
+.estrella-contenedor-7 {
+    position: absolute;
+    left: 3%;
+    top: 550%;
+    transform: rotate(70deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-7 {
+    height: 1px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 1.75s ease-in-out infinite,
+               falling 1.75s ease-in-out infinite;
+}
+
+.estrella-contenedor-8 {
+    position: absolute;
+    left: 95%;
+    top: 625%;
+    transform: rotate(125deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-8 {
+    height: 1px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 1.5s ease-in-out infinite,
+               falling 1.5s ease-in-out infinite;
+}
+
+.estrella-contenedor-9 {
+    position: absolute;
+    left: 5%;
+    top: 650%;
+    transform: rotate(50deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-9 {
+    height: 1px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 1.75s ease-in-out infinite,
+               falling 1.75s ease-in-out infinite;
+}
+
+.estrella-contenedor-10 {
+    position: absolute;
+    left: 60%;
+    top: 675%;
+    transform: rotate(55deg); /* Dirección de la estrella */
+    pointer-events: none; /* Para evitar que interfiera con clicks */
+    z-index: 0; /* Esto hace que esté detrás */
+}
+
+.estrella-10 {
+    height: 1px;
+    background: linear-gradient(-45deg, #ffffff , #efefefef);
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #b5b5b5);
+    animation: tail 1.75s ease-in-out infinite,
+               falling 1.75s ease-in-out infinite;
+}
+
+@keyframes tail{
+    0%{
+        width: 0px;
+    }
+    30%{
+        width: 100px;
+    }
+    100%{
+        width: 0px;
+    }
+
+}
+
+@keyframes falling{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(800px);
+    }
+}
